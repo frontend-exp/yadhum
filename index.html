@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
     <script type='text/javascript' src='js/app.js'></script>
 </head>
 
@@ -14,14 +15,14 @@
 <div id="wrapper">
     <header id="home">
 
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 logo">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5 logo">
             <img src="images/logo.png" />
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-6 text-right">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-5 text-right">
             <h4>97000 12345</h4>
-            admission@yaadhumoverseas.com
+            <span class="email"><a href="mailto:admission@yaadhumoverseas.com">admission@yaadhumoverseas.com</a></span>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 mainmenu">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 mainmenu">
             <p>Menu</p>
             <div id="hamburger">
                 <span></span>
@@ -30,15 +31,129 @@
             </div>
         </div>
 
-        <div class="menu"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Yaadhum</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Universities</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
 
     </header>
 
     <section id="banner">
-        Banner
+
+        <div class="banner-border"></div>
+
+        <div id="myCarousel" class="carousel slide carousel-fade">
+            <!-- Indicators
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            -->
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+                <div class="numslide"></div>
+                <div class="item active">
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('images/bg_1.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2><span>Management studies</span> in overseas</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta ligula at dolor suscipit auctor. Curabitur semper, odio ac fringilla molestie, ante massa tincidunt augue, eget facilisis risus nibh hendrerit orci.</p>
+                        <input type="button" class="btn pink" value="destinations &gt;">
+                        <input type="button" class="btn pink" value="contact &gt;">
+                    </div>
+                </div>
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('images/bg_2.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2><span>Master of Public Health</span> in overseas</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta ligula at dolor suscipit auctor. Curabitur semper, odio ac fringilla molestie, ante massa tincidunt augue, eget facilisis risus nibh hendrerit orci.</p>
+                        <input type="button" class="btn pink"  value="destinations &gt;">
+                        <input type="button" class="btn pink"  value="contact &gt;">
+                    </div>
+                </div>
+                <div class="item">
+                    <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('images/bg_3.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2><span>Master of Information Technology </span> in overseas</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta ligula at dolor suscipit auctor. Curabitur semper, odio ac fringilla molestie, ante massa tincidunt augue, eget facilisis risus nibh hendrerit orci.</p>
+                        <input type="button" class="btn pink"  value="destinations &gt;">
+                        <input type="button" class="btn pink"  value="contact &gt;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+
+        </div>
+
     </section>
 
-    Content
+    <div class="container">
+        <div class="row1">
+            <section class="col-lg-6 col-lg-push-6 col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-12">
+                <img src="images/img-main.jpg" />
+            </section>
+
+        <section class="col-lg-6 col-lg-pull-6 col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6 col-xs-12 main-content">
+            <div class="subtitle">Global opportunities</div>
+            <h4 class="txt-heading">You can choose where to get quality education</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta ligula at dolor suscipit auctor. Curabitur semper, odio ac fringilla molestie, ante massa tincidunt augue, eget facilisis risus nibh hendrerit orci Curabitur sempe</p>
+
+            <div class="row1">
+                <div class="select-style col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <select>
+                        <option value="volvo">Dream Destination</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+
+                <div class="select-style col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <select>
+                        <option value="volvo">Preferred  course</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12  btn-go">
+                    <a href="#" class="btn pink">Go <img src="images/link-arrow.png" /></a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        </div>
+    </div>
+
+    <div class="strip-yellow">
+        <div class="container">
+
+            dfsdf
+            sdf
+        </div>
+    </div>
 
 </div>
 
