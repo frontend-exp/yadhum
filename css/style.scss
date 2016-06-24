@@ -4,8 +4,14 @@ $txtColor: #515151;
 $pink:#e44053;
 $white:#fff;
 $gerytxt: #646464;
+$red:#e44053;
+$blue: #60c3dc;
+$border:#d2dde1;
 
-
+a{
+  text-decoration: none;
+  outline: none;
+}
 
 img {
   max-width: 100%;
@@ -193,11 +199,15 @@ section#banner{
 .yellow {
   background: $yellow;
 }
+.red {
+  background: $red;
+}
 .medium {
   font-family: 'robotomedium';
 }
 .row1 {
   padding: 5% 0;
+  overflow: hidden;
 }
 .subtitle{
   color: $pink;
@@ -214,6 +224,14 @@ section#banner{
     height: 3px;
     left: -30px;
     top: 8px;
+    display: block;
+  }
+}
+.subtitle2{
+  @extend .subtitle;
+  padding: 0;
+  &:before{
+    left: -60px;
   }
 }
 .txt-heading {
@@ -234,10 +252,190 @@ section#banner{
     box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);
   }
 }
+.padbot40 {
+  padding: 0 0 40px;
+}
 .strip-yellow {
   background: $yellow url("../images/bg-hp-country.jpg") no-repeat;
   background-size: cover;
-  padding: 50px 0 40px;
+  padding: 50px 0 10px;
+}
+.strip-blue{
+  background: $blue;
+  padding: 30px 0 0px;
+}
+.country-box {
+  padding: 0 15px;
+  outline: none;
+  text-align: center;
+  font-family: 'robotoregular';
+  img {
+    box-shadow: 0px 9px 13px 0px rgba(109, 109, 109, 0.5);
+  }
+  p{
+    padding: 20px 24px 0;
+    font-size: 0.875em;
+    line-height: 1.25em;
+  }
+  a {
+    font-size: 0.75em;
+    padding: 1px 14px !important;
+    letter-spacing: normal;
+  }
+}
+.partner{
+    padding: 10px 24px;
+    box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);
+    margin: 0 10px 0 0;
+  font-family: 'robotomedium';
+}
+.hp-points {
+  border-top: 4px solid #d2dde1;
+  overflow: hidden;
+  padding: 10px 0;
+
+  .mar20{
+    margin: 0 20px;
+  }
+  .feature-box {
+    border-bottom: 4px solid $blue;
+    padding: 40px 0 10px 0;
+
+    p{
+      font-size: 0.9375em;
+      line-height: 1.375em;
+      padding: 10px 0;
+    }
+
+    h4{
+      font-size: 1.875em;
+      font-family: 'bellotabold';
+      line-height: 0.875em;
+      span{
+        float: left;
+        padding: 0 10px 0 0;
+      }
+    }
+  }
+}
+.test-cont{
+  overflow: hidden;
+  text-align: center;
+  color:$white;
+  h1 {
+    font-size: 1.875em;
+    font-family: 'bellotabold_italic';
+    span{
+      color: $yellow;
+      font-size: 2em;
+      line-height: 0.25em;
+    }
+  }
+  .test-bot{
+    margin: 30px 0 0;
+    padding: 10px 0 0;
+    background: url("../images/line-yellow.png") no-repeat top center;
+    h4{
+      font-family: 'Billabong';
+      font-size: 1.5em;
+      line-height: 1em;
+      margin: 0;
+    }
+    p{
+      font-family: 'robotoregular';
+      font-size: 0.875em;
+      font-style: italic;
+      color: $white;
+    }
+  }
+}
+.bot-cont {
+  padding: 100px 0;
+  overflow: hidden;
+  .gallery-cont{
+    overflow: hidden;
+  }
+
+  .event-cont{
+    border: 1px solid $border;
+    border-radius: 5px;
+    .event-box1{
+      padding: 30px;
+      border-bottom: 1px solid $border;
+      h2{
+        font-family: 'bellotabold_italic';
+        font-size: 1.875em;
+        margin: 0;
+        line-height: 1em;
+      }
+    }
+    .event-box{
+      padding: 30px;
+      border-bottom: 1px solid $border;
+      overflow: hidden;
+      &:last-child{
+      border-bottom: 0px solid $border;
+    }
+      h2{
+        font-family: 'bellotabold_italic';
+        font-size: 1.875em;
+        margin: 0;
+        line-height: 1em;
+      }
+      h4{
+        color: $pink;
+        font-size: 0.875em;
+        font-family: 'robotobold';
+        text-transform: uppercase;
+        margin: 0;
+      }
+      p{
+        font-family: 'robotoregular';
+        font-size: 0.875em;
+        line-height: 1.25em;
+        padding: 10px 0 0;
+        height: 60px;
+      }
+      .event-place{
+        width: 50%;
+        float: left;
+        color: #969696;
+        font-family: 'robotolight';
+        font-size: 0.8125em;
+      }
+      .event-date{
+        @extend .event-place;
+        text-align: right;
+      }
+    }
+  }
+  .gallery-box{
+    padding: 30px 0 0 40px;
+    background: url("../images/img-gallery.jpg") no-repeat;
+    height: 470px;
+    position: relative;
+
+    .btn{
+      position: absolute;
+      bottom: 30px;
+    }
+
+    h2{
+      font-family: 'bellotabold_italic';
+      font-size: 2.1875em;
+      color: $white;
+      width: 40%;
+      padding: 8% 0 0;
+    }
+  }
+  .feature-row{
+    margin-top: 30px;
+    overflow: hidden;
+    .feature-col{
+      border-radius: 5px;
+      border: 1px solid #000;
+    }
+  }
 }
 /**Custom Seletct*/
 .select-style {
