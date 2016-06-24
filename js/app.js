@@ -49,6 +49,12 @@ $(document).ready(function() {
     });
 
     /**Slick**/
+    $('.univ-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
 
     $('.test-cont').slick({
         slidesToShow: 1,

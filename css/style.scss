@@ -202,6 +202,9 @@ section#banner{
 .red {
   background: $red;
 }
+.blue {
+  background: $blue;
+}
 .medium {
   font-family: 'robotomedium';
 }
@@ -263,6 +266,10 @@ section#banner{
 .strip-blue{
   background: $blue;
   padding: 30px 0 0px;
+}
+.strip-pink{
+  background: $pink;
+  padding: 20px 0;
 }
 .country-box {
   padding: 0 15px;
@@ -433,9 +440,129 @@ section#banner{
     overflow: hidden;
     .feature-col{
       border-radius: 5px;
-      border: 1px solid #000;
+      overflow: hidden;
+      .feature-img {
+        height: 155px;
+        position: relative;
+        span{
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          color: $white;
+          font-family: 'robotoregular';
+          font-size: 0.75em;
+          text-transform: uppercase;
+          padding: 3px 10px;
+          border-radius: 5px;
+        }
+      }
+      .feature-img.tests {
+        background: url("../images/img-tests.jpg") no-repeat;
+      }
+      .feature-img.blog {
+        background: url("../images/img-blog.jpg") no-repeat;
+      }
+      .feature-img.promo {
+        background: url("../images/img-promo.jpg") no-repeat;
+      }
+      .feature-info{
+        border-left: 1px solid $border;
+        border-right: 1px solid $border;
+        border-bottom: 1px solid $border;
+        padding: 30px;
+        border-radius: 5px;
+        h2{
+          margin: 0;
+          color: $pink;
+          text-transform: uppercase;
+          font-size: 1.0625em;
+          font-family: 'robotobold';
+          a{
+            color: $pink;
+          }
+        }
+        p{
+          font-size: 0.875em;
+          line-height: 1.25em;
+          padding: 10px 0 0;
+        }
+      }
     }
   }
+  .univ-cont{
+    padding: 0 15px;
+    .univ-slider{
+      padding: 40px;
+      border: 1px solid $border;
+      border-radius: 5px;
+      margin: 30px 0 0;
+    }
+  }
+}
+.reach h4{
+  font-family: 'robotomedium';
+  font-size: 1.875em;
+  color: $white;
+}
+.footer-top {
+  padding: 50px 0 30px;
+  overflow: hidden;
+  .foot-text{
+    padding: 14px 0 0 31px;
+  }
+  .address {
+    font-family: 'robotobold';
+    font-size: 0.9375em;
+  }
+  .sitemap{
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li{
+        float: left;
+        width: 50%;
+        text-transform: capitalize;
+        font-family: 'robotoregular';
+        font-size: 0.875em;
+        padding: 0 0 8px;
+        a{
+          color: #bbbbbb;
+          text-decoration: none;
+          &:hover{
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+  .touch{
+    input{
+      width: 100%;
+      padding: 5px 20px;
+      height: 30px;
+      border-radius: 30px;
+      background: none;
+      border: 1px solid $border;
+      outline: none;
+      font-size: 0.875em;
+      box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);
+      margin: 0 0 15px;
+    }
+    input[type="button"]{
+      background: $pink;
+      color: $white;
+      text-transform: uppercase;
+      width: 110px;
+    }
+  }
+}
+.footer-bot{
+  border-top: 1px solid $border;
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'robotoregular';
+  font-size: 0.875em;
 }
 /**Custom Seletct*/
 .select-style {
