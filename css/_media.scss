@@ -1,3 +1,12 @@
+@media screen and (min-device-width: 767px) and (max-device-width: 992px) {
+  .carousel-caption {
+    width: 40%;
+  }
+  .hp-points .feature-box h4 {
+    font-size: 1.75em;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .banner-border {
     display: none;
@@ -33,5 +42,54 @@
     p{
       display: none;
     }
+  }
+  .hp-points .feature-box {
+    padding: 40px 15px 10px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body{
+    font-size: 14px;
+  }
+  .carousel-caption{
+    top: 15%;
+    right: 0;
+    width: 70%;
+    p{
+      display: none;
+    }
+    h2{
+      margin: 0 0 40px;
+    }
+    .btn{
+      margin-top: 10px;
+    }
+  }
+  .carousel-control.left {
+    left: 26%;
+  }
+  .carousel-control.right {
+    right: 26%;
+  }
+  .numslide{
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left:-35px;
+  }
+  .select-style, .partner {
+    margin: 0 0 15px;
+  }
+
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .menu .menu-inner{
+    width: 100%;
+  }
+  .menu .nav {
+    padding: 40px 10px 20px 0;
+  }
+  .menu .nav-country {
+    padding: 40px 0 20px 10px;
   }
 }
