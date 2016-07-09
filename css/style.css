@@ -237,6 +237,13 @@ section#banner {
 .blue {
   background: #60c3dc; }
 
+.lblue {
+  background: #e1ebed; }
+
+.gray {
+  background: #646464;
+  color: #fff !important; }
+
 .btn-shadow {
   box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25); }
 
@@ -245,6 +252,10 @@ section#banner {
 
 .row1 {
   padding: 4% 0;
+  overflow: hidden; }
+
+.row2 {
+  padding: 1% 0;
   overflow: hidden; }
 
 .subtitle, .subtitle2 {
@@ -901,6 +912,9 @@ section#banner {
 #inner.contact {
   background: url("../images/banner-inner-contact.jpg") no-repeat top center; }
 
+#inner.universities {
+  background: url("../images/banner-inner-universities.jpg") no-repeat top center; }
+
 p.small-text {
   font-size: 0.875em; }
 
@@ -1046,5 +1060,151 @@ div.panel.show {
   font-size: 1.75em;
   color: #fff;
   border: none !important; }
+.accordion-cont .ui-icon-plus {
+  background: url("../images/ico-plus.png") no-repeat 0 0 !important;
+  width: 20px;
+  height: 20px; }
+.accordion-cont .ui-icon-minus {
+  background: url("../images/ico-plus.png") no-repeat 0 -20px !important;
+  width: 20px;
+  height: 20px; }
+.accordion-cont .ui-accordion .ui-accordion-header {
+  margin-bottom: 15px; }
+.accordion-cont .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  right: 1em;
+  left: auto; }
+.accordion-cont .ui-accordion .ui-accordion-icons {
+  padding-left: 1em; }
+.accordion-cont .ui-accordion .ui-accordion-content {
+  border: 1px solid #d2dde1;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding: 1em 1.5em 1em 1.5em; }
+  .accordion-cont .ui-accordion .ui-accordion-content p {
+    font-size: 0.875em;
+    font-family: 'robotolight';
+    line-height: 1.1875em; }
+  .accordion-cont .ui-accordion .ui-accordion-content h5 {
+    font-family: 'robotomedium';
+    font-size: 0.875em;
+    padding: 0.5em 0 0.125em; }
+  .accordion-cont .ui-accordion .ui-accordion-content .rightpad {
+    padding-right: 15em; }
+  .accordion-cont .ui-accordion .ui-accordion-content .para-height {
+    height: 60px; }
+  .accordion-cont .ui-accordion .ui-accordion-content .tbl {
+    border-bottom: 1px solid #d2dde1;
+    overflow: hidden;
+    padding: 5px 0; }
+    .accordion-cont .ui-accordion .ui-accordion-content .tbl .col1 {
+      font-family: 'robotoregular';
+      font-size: 0.875em;
+      font-weight: bold; }
+    .accordion-cont .ui-accordion .ui-accordion-content .tbl .col2 {
+      color: #60c3dc;
+      font-family: 'robotoregular';
+      font-size: 0.875em;
+      text-align: right; }
+    .accordion-cont .ui-accordion .ui-accordion-content .tbl:last-child {
+      border-bottom: 0px solid #d2dde1; }
+
+.sep-line {
+  border-bottom: 1px solid #d2dde1;
+  padding: 30px 0 0;
+  margin: 0 0 30px;
+  overflow: hidden; }
+
+.avg-cost {
+  background: url("../images/img-avg-cost.png") no-repeat;
+  padding: 10px 0 10px 115px;
+  margin: 30px 0 0;
+  font-family: 'robotoregular';
+  font-size: 0.875em; }
+  .avg-cost span {
+    color: #60c3dc; }
+
+ul.com-list {
+  list-style: none; }
+  ul.com-list li {
+    background: url("../images/bullet.gif") no-repeat 0 13px;
+    padding: 5px 0 5px 20px;
+    font-family: 'robotolight';
+    font-size: 0.875em;
+    width: 40%;
+    float: left; }
+
+.list-icon {
+  color: #60c3dc;
+  float: left;
+  width: 80px;
+  padding: 15px 0 0; }
+
+.list-icon-copy {
+  float: left; }
+  .list-icon-copy h5 {
+    margin: 0;
+    font-family: 'robotomedium'; }
+  .list-icon-copy ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .list-icon-copy li {
+    background: url("../images/bullet.gif") no-repeat 0 13px;
+    padding: 5px 0 5px 20px;
+    font-family: 'robotolight';
+    font-size: 0.875em; }
+
+.search-bar {
+  border-top: 1px solid #d2dde1;
+  border-bottom: 1px solid #d2dde1;
+  padding: 30px 20px;
+  margin-bottom: 30px; }
+  .search-bar label {
+    font-family: 'robotoregular';
+    font-size: 1.125em;
+    background: url("../images/ico-search.png") no-repeat;
+    padding: 2px 20px 2px 40px; }
+  .search-bar a {
+    color: #515151;
+    margin: 0 5px; }
+
+.accordion-cont .accordion.univ .ui-state-default {
+  background: #ffc000;
+  height: 70px;
+  padding: 0; }
+  .accordion-cont .accordion.univ .ui-state-default b {
+    background: #60c3dc;
+    width: 260px;
+    float: left;
+    padding: .5em .5em .5em .7em;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+  .accordion-cont .accordion.univ .ui-state-default small {
+    margin: 1.65em .5em .5em 1em;
+    display: block;
+    float: left;
+    font-family: 'robotomedium';
+    font-size: 0.55em;
+    color: #515151;
+    text-decoration: underline; }
+    .accordion-cont .accordion.univ .ui-state-default small:hover {
+      text-decoration: none; }
+
+.univ-box {
+  border: 1px solid #d2dde1;
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px; }
+  .univ-box .univ-logo {
+    padding: 15px 0;
+    height: 60px;
+    overflow: hidden;
+    box-sizing: content-box; }
+  .univ-box p {
+    font-family: 'bellotabold_italic' !important;
+    font-size: 1em !important;
+    height: 50px;
+    padding: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */

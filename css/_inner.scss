@@ -31,6 +31,9 @@
 #inner.contact{
   background: url("../images/banner-inner-contact.jpg") no-repeat top center;
 }
+#inner.universities{
+  background: url("../images/banner-inner-universities.jpg") no-repeat top center;
+}
 p.small-text {
   font-size: 0.875em;
 }
@@ -183,5 +186,181 @@ div.panel.show {
     font-size: 1.75em;
     color: $white;
     border: none !important;
+  }
+  .ui-icon-plus{
+    background: url("../images/ico-plus.png") no-repeat  0 0 !important;
+    width: 20px;
+    height: 20px;
+  }
+  .ui-icon-minus{
+    background: url("../images/ico-plus.png") no-repeat  0 -20px !important;
+    width: 20px;
+    height: 20px;
+  }
+  .ui-accordion .ui-accordion-header{
+    margin-bottom: 15px;
+  }
+  .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    right: 1em;
+    left: auto;
+  }
+  .ui-accordion .ui-accordion-icons{
+    padding-left: 1em;
+  }
+  .ui-accordion .ui-accordion-content{
+    border: 1px solid $border;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 1em 1.5em 1em 1.5em;
+    p{
+      font-size: 0.875em;
+      font-family: 'robotolight';
+      line-height: 1.1875em;
+    }
+    h5{
+      font-family: 'robotomedium';
+      font-size: 0.875em;
+      padding: 0.5em 0 0.125em;
+    }
+    .rightpad{
+      padding-right: 15em;
+    }
+    .para-height{
+      height: 60px;
+    }
+
+    .tbl{
+      border-bottom: 1px solid $border;
+      overflow: hidden;
+      padding: 5px 0;
+      .col1{
+        font-family: 'robotoregular';
+        font-size: 0.875em;
+        font-weight: bold;
+      }
+      .col2{
+        color: $blue;
+        font-family: 'robotoregular';
+        font-size: 0.875em;
+        text-align: right;
+      }
+      &:last-child{
+        border-bottom: 0px solid $border;
+      }
+    }
+  }
+}
+.sep-line{
+  border-bottom: 1px solid $border;
+  padding: 30px 0 0;
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+.avg-cost{
+  background: url("../images/img-avg-cost.png") no-repeat;
+  padding: 10px 0 10px 115px;
+  margin: 30px 0 0;
+  font-family: 'robotoregular';
+  font-size: 0.875em;
+  span{
+    color: $blue;
+  }
+}
+ul.com-list{
+  list-style: none;
+  li{
+    background: url("../images/bullet.gif") no-repeat 0 13px;
+    padding: 5px 0 5px 20px;
+    font-family: 'robotolight';
+    font-size: 0.875em;
+    width: 40%;
+    float: left;
+  }
+}
+.list-icon{
+  color: $blue;
+  float: left;
+  width: 80px;
+  padding: 15px 0 0;
+}
+.list-icon-copy{
+  float: left;
+  h5{
+    margin: 0;
+    font-family: 'robotomedium';
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    background: url("../images/bullet.gif") no-repeat 0 13px;
+    padding: 5px 0 5px 20px;
+    font-family: 'robotolight';
+    font-size: 0.875em;
+  }
+}
+.search-bar{
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  label{
+    font-family: 'robotoregular';
+    font-size: 1.125em;
+    background: url("../images/ico-search.png") no-repeat;
+    padding: 2px 20px 2px 40px;
+  }
+  a{
+    color: $txtColor;
+    margin: 0 5px;
+  }
+}
+.accordion-cont .accordion.univ {
+  .ui-state-default {
+    background: $yellow;
+    height: 70px;
+    padding: 0;
+    b{
+      background: $blue;
+      width: 260px;
+      float: left;
+      padding: .5em .5em .5em .7em;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    small{
+      margin: 1.65em .5em .5em 1em;
+      display: block;
+      float: left;
+      font-family: 'robotomedium';
+      font-size: 0.55em;
+      color: $txtColor;
+      text-decoration: underline;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+.univ-box{
+  border: 1px solid $border;
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  .univ-logo{
+    padding: 15px 0;
+    height: 60px;
+    overflow: hidden;
+    box-sizing: content-box;
+  }
+  p{
+    font-family: 'bellotabold_italic' !important;
+    font-size: 1em !important;
+    height: 50px;
+    padding: 10px 0;
   }
 }

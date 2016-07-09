@@ -8,6 +8,7 @@ $red:#e44053;
 $blue: #60c3dc;
 $border:#d2dde1;
 $ico-color:#31b7c6;
+$lblue:#e1ebed;
 
 a, input[type="button"]{
   text-decoration: none;
@@ -274,6 +275,13 @@ section#banner{
 .blue {
   background: $blue;
 }
+.lblue {
+  background: $lblue;
+}
+.gray{
+  background: $greytxt;
+  color: $white !important;
+ }
 .btn-shadow{
   box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);
 }
@@ -282,6 +290,10 @@ section#banner{
 }
 .row1 {
   padding: 4% 0;
+  overflow: hidden;
+}
+.row2 {
+  padding: 1% 0;
   overflow: hidden;
 }
 .subtitle{
