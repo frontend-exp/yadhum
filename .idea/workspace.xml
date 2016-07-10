@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ca1e2a-ac9f-40e6-84ae-54538a7f4dda" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_inner.scss" afterPath="$PROJECT_DIR$/css/_inner.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/destination-ireland.html" afterPath="$PROJECT_DIR$/destination-ireland.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/destinations.html" afterPath="$PROJECT_DIR$/destinations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universities.html" afterPath="$PROJECT_DIR$/universities.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yadhumm.iws" />
@@ -47,31 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="universities.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/universities.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3846154">
-              <caret line="358" column="26" selection-start-line="336" selection-start-column="20" selection-end-line="358" selection-end-column="26" />
+            <state vertical-scroll-proportion="-2.4727273">
+              <caret line="189" column="77" selection-start-line="189" selection-start-column="77" selection-end-line="189" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+            <state vertical-scroll-proportion="-4.724138">
+              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="destinations.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/destinations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="100" column="57" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -80,7 +76,7 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.090909">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="296" column="19" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="19" />
               <folding />
             </state>
@@ -90,8 +86,8 @@
       <file leaf-file-name="_inner.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_inner.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58768654">
-              <caret line="357" column="28" selection-start-line="357" selection-start-column="28" selection-end-line="357" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.93982303">
+              <caret line="391" column="1" selection-start-line="391" selection-start-column="1" selection-end-line="391" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,7 +96,7 @@
       <file leaf-file-name="_font.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_font.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="61" column="36" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="36" />
               <folding />
             </state>
@@ -127,16 +123,16 @@
         <option value="$PROJECT_DIR$/css/slick-theme.css" />
         <option value="$PROJECT_DIR$/css/_font.scss" />
         <option value="$PROJECT_DIR$/css/_media.scss" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/css/jquery-ui.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/destination-ireland.html" />
-        <option value="$PROJECT_DIR$/destinations.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/destinations.html" />
+        <option value="$PROJECT_DIR$/destination-ireland.html" />
         <option value="$PROJECT_DIR$/universities.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/css/_inner.scss" />
       </list>
     </option>
@@ -176,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,20 +215,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yadhumm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yadhumm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -239,7 +222,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,14 +335,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -669,13 +643,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -690,37 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/destination-ireland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/destinations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,16 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_font.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="61" column="36" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.090909">
-          <caret line="296" column="19" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -760,18 +692,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/destination-ireland.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="90" selection-start-line="82" selection-start-column="90" selection-end-line="82" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/isotope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271027">
+          <caret line="12" column="2741" selection-start-line="12" selection-start-column="2736" selection-end-line="12" selection-end-column="2741" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/destinations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="57" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/universities.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3846154">
-          <caret line="358" column="26" selection-start-line="336" selection-start-column="20" selection-end-line="358" selection-end-column="26" />
+        <state vertical-scroll-proportion="-2.4727273">
+          <caret line="189" column="77" selection-start-line="189" selection-start-column="77" selection-end-line="189" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="296" column="19" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.724138">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_inner.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58768654">
-          <caret line="357" column="28" selection-start-line="357" selection-start-column="28" selection-end-line="357" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.93982303">
+          <caret line="391" column="1" selection-start-line="391" selection-start-column="1" selection-end-line="391" selection-end-column="1" />
           <folding />
         </state>
       </provider>
