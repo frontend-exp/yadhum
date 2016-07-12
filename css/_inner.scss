@@ -250,6 +250,9 @@ div.panel.show {
     }
   }
 }
+.accordion-cont .accordion.univ h3.title-acc.ui-state-default{
+  padding: .5em .5em .5em .7em;
+}
 .sep-line{
   border-bottom: 1px solid $border;
   padding: 30px 0 0;
@@ -365,6 +368,7 @@ ul.com-list{
   }
 }
 
+/**
 .isotope-item {
   z-index: 2;
 }
@@ -374,8 +378,6 @@ ul.com-list{
 }
 .isotope,
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
-
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   transition-duration: 0.8s;
@@ -389,4 +391,14 @@ ul.com-list{
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
+}
+**/
+.gallery > div {
+  opacity: 1;
+  transition: all 0.2s;
+}
+.gallery > div.hide {
+  width:0%;
+  opacity: 0;
+  transition: all 0.1s;
 }

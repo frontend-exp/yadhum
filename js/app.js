@@ -160,6 +160,7 @@ $(window).load(function(){
         }
     });
 
+    /**
     $('.portfolioFilter a').click(function(){
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
@@ -175,6 +176,21 @@ $(window).load(function(){
         });
         return false;
     });
+     **/
+
+    $('.filter a').click(function(e) {
+        e.preventDefault();
+        var a = $(this).attr('href');
+        a = a.substr(1);
+        $('.gallery > div').each(function() {
+            if (!$(this).hasClass(a) && a != 'all')
+                $(this).addClass('hide');
+            else
+                $(this).removeClass('hide');
+        });
+
+    });
+
 });
 
 

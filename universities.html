@@ -11,9 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 
-    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.12.1.min.js'></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type='text/javascript' src='js/bootstrap.min.js'></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
@@ -78,7 +77,7 @@
 
         <div class="row1">
 
-            <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
+            <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content mobile-toppad">
                 <div class="subtitle">Preffered Universities</div>
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main-content">
@@ -94,13 +93,13 @@
         </div>
 
 
-        <div class="search-bar portfolioFilter">
+        <div class="search-bar filter">
             <label>Sort by preferred stream : </label>
-            <a href="#" data-filter="*"  class="btn gray">All <img src="images/arrow_down.png" /> </a>
-            <a href="#" data-filter=".manage" class="btn lblue">Management <img src="images/arrow_down.png" /> </a>
-            <a href="#" data-filter=".medi" class="btn lblue">Medicine <img src="images/arrow_down.png" /> </a>
-            <a href="#" data-filter=".arts" class="btn lblue">Arts & Science <img src="images/arrow_down.png" /> </a>
-            <a href="#" data-filter=".engr" class="btn lblue">Engineering <img src="images/arrow_down.png" /> </a>
+            <a href="#all" class="btn gray">All <img src="images/arrow_down.png" /> </a>
+            <a href="#manage" class="btn lblue">Management <img src="images/arrow_down.png" /> </a>
+            <a href="#medi" class="btn lblue">Medicine <img src="images/arrow_down.png" /> </a>
+            <a href="#arts" class="btn lblue">Arts & Science <img src="images/arrow_down.png" /> </a>
+            <a href="#engr" class="btn lblue">Engineering <img src="images/arrow_down.png" /> </a>
         </div>
 
 
@@ -111,8 +110,8 @@
                 <h3><b>Ireland</b> <small onclick="location.href='destination-ireland.html';">Explore Country <img src="images/link-arrow.png"/></small> </h3>
                 <div active="0" id="course-25">
 
-                    <div class="row2">
-                        <div class="portfolioContainer">
+
+                        <div class="gallery">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/ireland/img-univ1.jpg" /></div>
@@ -157,14 +156,14 @@
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/ireland/img-univ7.jpg" /></div>
                                 <div class="univ-logo"><img src="images/ireland/img-univ7-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 engr">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/ireland/img-univ8.jpg" /></div>
                                 <div class="univ-logo"><img src="images/ireland/img-univ8-logo.jpg" /></div>
@@ -172,14 +171,14 @@
                             </div>
                         </div>
                         </div>
-                    </div>
+
 
 
                 </div>
 
                 <h3><b>New Zealand</b> <small>Explore Country <img src="images/link-arrow.png"/></small> </h3>
                 <div active="1" id="course-26">
-                    <div class="portfolioContainer">
+                    <div class="gallery">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/newzealand/img-univ1.jpg" /></div>
@@ -194,14 +193,14 @@
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 engr">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/newzealand/img-univ3.jpg" /></div>
                                 <div class="univ-logo"><img src="images/newzealand/img-univ3-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/newzealand/img-univ4.jpg" /></div>
                                 <div class="univ-logo"><img src="images/newzealand/img-univ4-logo.jpg" /></div>
@@ -213,29 +212,29 @@
 
                 <h3><b>Singapore</b> <small>Explore Country <img src="images/link-arrow.png"/></small> </h3>
                 <div active="1" id="course-27">
-                    <div class="portfolioContainer">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="gallery">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ1.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ1-logo.jpg" /></div>
                                 <p>Cork Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ2.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ2-logo.jpg" /></div>
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ3.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ3-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ4.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ4-logo.jpg" /></div>
@@ -243,28 +242,28 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ5.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ5-logo.jpg" /></div>
                                 <p>Cork Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 engr">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ6.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ6-logo.jpg" /></div>
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ7.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ7-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/singapore/img-univ8.jpg" /></div>
                                 <div class="univ-logo"><img src="images/singapore/img-univ8-logo.jpg" /></div>
@@ -278,84 +277,80 @@
 
                 <h3><b>Canada</b> <small>Explore Country <img src="images/link-arrow.png"/></small> </h3>
                 <div active="1" id="course-28">
-                    <div class="row2">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="gallery">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ1.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ1-logo.jpg" /></div>
                                 <p>Cork Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ2.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ2-logo.jpg" /></div>
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ3.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ3-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 engr">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ4.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ4-logo.jpg" /></div>
                                 <p>University of Limerick</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row2">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ5.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ5-logo.jpg" /></div>
                                 <p>Cork Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ6.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ6-logo.jpg" /></div>
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 engr">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ7.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ7-logo.jpg" /></div>
                                 <p>Limerick Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ8.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ8-logo.jpg" /></div>
                                 <p>University of Limerick</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row2">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 medi">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ9.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ9-logo.jpg" /></div>
                                 <p>Cork Institute of Technology</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 arts">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ10.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ10-logo.jpg" /></div>
                                 <p>Waterford Institute of Technolog</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage ">
                             <div class="univ-box">
                                 <div class="univ-img"><img src="images/canada/img-univ11.jpg" /></div>
                                 <div class="univ-logo"><img src="images/canada/img-univ11-logo.jpg" /></div>
@@ -369,11 +364,13 @@
 
                 <h3><b>Philippines</b> <small>Explore Country <img src="images/link-arrow.png"/></small> </h3>
                 <div active="1" id="course-29">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="univ-box">
-                            <div class="univ-img"><img src="images/philippines/img-univ1.jpg" /></div>
-                            <div class="univ-logo"><img src="images/philippines/img-univ1-logo.jpg" /></div>
-                            <p>University of Perpetual Help System DALTA</p>
+                    <div class="gallery">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 manage">
+                            <div class="univ-box">
+                                <div class="univ-img"><img src="images/philippines/img-univ1.jpg" /></div>
+                                <div class="univ-logo"><img src="images/philippines/img-univ1-logo.jpg" /></div>
+                                <p>University of Perpetual Help System DALTA</p>
+                            </div>
                         </div>
                     </div>
                 </div>

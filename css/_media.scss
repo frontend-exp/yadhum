@@ -12,10 +12,11 @@
     display: none;
   }
   .logo {
-    padding: 10px 0 5px 20px;
+    padding: 5px 0 5px 10px;
   }
   header#home h4 {
-    font-size: 1.375em;
+    font-size: 1.25em;
+    padding: 25px 0 0;
   }
   .email{
     display: none;
@@ -36,8 +37,8 @@
     }
   }
   .mainmenu {
-    margin: 10px 0 0;
-    padding: 16px 10px 8px 10px;
+    margin: 0;
+    padding: 16px 6px 12px;
     border: none;
     p{
       display: none;
@@ -46,7 +47,97 @@
   .hp-points .feature-box {
     padding: 40px 15px 10px;
   }
+  .gallery-tab{
+    display: none;
+  }
+  .mobile-pad{
+    margin: 30px 0;
+  }
+  .mobile-toppad{
+    margin: 30px 0 0;
+  }
+  .bot-cont {
+    padding: 50px 0;
+  }
+  .reach h4 {
+    font-size: 1.5em;
+  }
+  .menu .nav {
+    width: 46%;
+  }
+  .txt-heading{
+    font-size: 2.25em;
+  }
+  .padbot40 {
+    padding: 0 0 30px;
+  }
+  .slick-slider .slick-dots {
+    bottom: -35px;
+  }
+  .hp-points .feature-box {
+    padding: 20px 15px 10px;
+  }
+  .footer-top .foot-text {
+    padding: 16px 0 20px 25px;
+  }
+  .footer-top {
+    padding: 50px 0 0;
+  }
+  #inner h2 {
+    font-size: 3.125em;
+    padding: 60px 0 0;
+  }
+  .destination-box {
+    margin: 0 0 30px;
+    p{
+      display: none;
+    }
+  }
+  .destination-flow{
+    display: none;
+  }
+  .accordion-cont .ui-accordion .ui-accordion-content .rightpad {
+    padding-right: 0em;
+  }
+  .accordion-cont{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .accordion-cont .ui-state-default {
+    font-size: 1.5em;
+  }
+  .accordion-cont .accordion.univ h3.title-acc.ui-state-default {
+    padding: 0.75em 0.5em 0.5em 0.7em;
+  }
+  .accordion-cont .ui-accordion .ui-accordion-content {
+    padding: 1em 0.5em;
+  }
+  ul.com-list li {
+    width: 90%;
+  }
+  .contact-map {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .accordion-cont .accordion.univ .ui-state-default small{
+    display: none;
+  }
+  .accordion-cont .accordion.univ .ui-state-default b{
+    background: none;
+    padding: 0.875em 0.5em 0.5em 0.7em;
+  }
+  .univ-box{
+    margin: 0 0 30px;
+  }
+  .univ-box .univ-logo {
+    height: 40px;
+  }
+  .search-bar a {
+    margin: 0 auto 15px;
+    width: 100%;
+  }
 }
+
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body{
     font-size: 14px;

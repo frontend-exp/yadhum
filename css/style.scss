@@ -292,7 +292,7 @@ section#banner{
   padding: 4% 0;
   overflow: hidden;
 }
-.row2 {
+.row2, .gallery {
   padding: 1% 0;
   overflow: hidden;
 }
@@ -805,5 +805,5 @@ section#banner{
 
 
 @import "font";
-@import "media";
 @import "inner";
+@import "media";
