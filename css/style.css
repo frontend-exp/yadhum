@@ -47,6 +47,16 @@ header#home {
     margin: 0;
     padding: 30px 0 0; }
 
+.hp-contact {
+  padding: 0 50px 0 0;
+  text-align: right;
+  overflow: hidden; }
+  .hp-contact .col1 {
+    float: right;
+    padding: 0 20px 0 0; }
+  .hp-contact .col2 {
+    float: right; }
+
 .fixed {
   position: fixed;
   width: 100%;
@@ -60,13 +70,13 @@ header#home {
   margin: 20px 0 10px 0;
   font-family: 'robotoregular';
   text-transform: uppercase;
-  padding: 10px 10px 8px 50px; }
+  padding: 10px 0 8px 20px; }
   .mainmenu p {
     width: 70px;
     float: left;
     font-size: 1em;
     letter-spacing: 2px;
-    padding: 6px 0 0;
+    padding: 6px 14px 0 0;
     color: #fff; }
 
 header#home.fixed {
@@ -250,6 +260,10 @@ section#banner {
 .medium {
   font-family: 'robotomedium'; }
 
+.row-home {
+  padding: 90px 0;
+  overflow: hidden; }
+
 .row1 {
   padding: 4% 0;
   overflow: hidden; }
@@ -258,14 +272,14 @@ section#banner {
   padding: 1% 0;
   overflow: hidden; }
 
-.subtitle, .subtitle2 {
+.subtitle, .subtitle1, .subtitle2 {
   color: #e44053;
   font-size: 0.875em;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
   padding: 0 0 0 30px; }
-  .subtitle:before, .subtitle2:before {
+  .subtitle:before, .subtitle1:before, .subtitle2:before {
     content: "";
     position: absolute;
     background: url("../images/line-gray.jpg") no-repeat;
@@ -274,6 +288,9 @@ section#banner {
     left: -30px;
     top: 8px;
     display: block; }
+
+.subtitle1:before {
+  background: url("../images/line-pink.gif") no-repeat; }
 
 .subtitle2 {
   padding: 0; }
@@ -300,7 +317,7 @@ section#banner {
 .strip-yellow {
   background: #ffc000 url("../images/bg-hp-country.jpg") no-repeat;
   background-size: cover;
-  padding: 50px 0 10px; }
+  padding: 56px 0 10px; }
 
 .strip-blue {
   background: #60c3dc;
@@ -333,13 +350,14 @@ section#banner {
 .partner {
   padding: 10px 24px;
   /*box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);*/
-  margin: 0 10px 0 0;
+  margin: 0 10px 10px 0;
   font-family: 'robotomedium'; }
 
 .hp-points {
   border-top: 4px solid #d2dde1;
   overflow: hidden;
-  padding: 10px 0; }
+  padding: 10px 0;
+  margin: 0 0 80px; }
   .hp-points .mar20 {
     margin: 0 20px; }
   .hp-points .feature-box {
@@ -586,7 +604,7 @@ section#banner {
 /**Custom Seletct*/
 .select-style {
   padding: 5px 0;
-  margin: 0 5px 0 0;
+  margin: 0 5px 10px 0;
   width: 220px;
   border-radius: 20px;
   overflow: hidden;
@@ -803,8 +821,7 @@ section#banner {
   content: "\e905"; }
 
 #inner {
-  height: 400px;
-  background-size: cover; }
+  height: 400px; }
   #inner h2 {
     font-family: 'bellotabold_italic';
     font-size: 4.25em;
@@ -813,11 +830,12 @@ section#banner {
     padding: 180px 0 0; }
 
 #inner.about {
-  background: url("../images/banner-inner-about.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-about.jpg") no-repeat top center;
+  background-size: cover; }
 
 #inner.services {
-  height: 350px;
-  background: url("../images/banner-inner-services.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-services.jpg") no-repeat top center;
+  background-size: cover; }
 
 #big-icon {
   font-size: 1.9375em;
@@ -826,16 +844,20 @@ section#banner {
   margin: 8px 20px 0 0; }
 
 #inner.ireland {
-  background: url("../images/banner-inner-ireland.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-ireland.jpg") no-repeat top center;
+  background-size: cover; }
 
 #inner.destination {
-  background: url("../images/banner-inner-destination.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-destination.jpg") no-repeat top center;
+  background-size: cover; }
 
 #inner.contact {
-  background: url("../images/banner-inner-contact.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-contact.jpg") no-repeat top center;
+  background-size: cover; }
 
 #inner.universities {
-  background: url("../images/banner-inner-universities.jpg") no-repeat top center; }
+  background: url("../images/banner-inner-universities.jpg") no-repeat top center;
+  background-size: cover; }
 
 p.small-text {
   font-size: 0.875em; }
@@ -933,7 +955,9 @@ div.panel.show {
 .add.location {
   background: url("../images/ico-marker.png") no-repeat 0 8px;
   font-family: 'robotobold';
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  color: #646464;
+  line-height: 1.6875em; }
 
 .add.contact {
   background: url("../images/ico-phone.png") no-repeat 0 8px; }
@@ -1294,10 +1318,16 @@ ul.com-list {
 
   .search-bar a {
     margin: 0 auto 15px;
-    width: 100%; } }
+    width: 100%; }
+
+  .hp-contact {
+    padding: 0; } }
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
     font-size: 14px; }
+
+  .col1 h4 {
+    display: none; }
 
   .carousel-caption {
     top: 15%;

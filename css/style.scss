@@ -62,6 +62,18 @@ header#home{
     padding: 30px 0 0;
   }
 }
+.hp-contact{
+  padding: 0 50px 0 0;
+  text-align: right;
+  overflow: hidden;
+  .col1{
+    float: right;
+    padding: 0 20px 0 0;
+  }
+  .col2{
+    float: right;
+  }
+}
 .fixed {
   position: fixed;
   width: 100%;
@@ -75,13 +87,13 @@ header#home{
   margin: 20px 0 10px 0;
   font-family: 'robotoregular';
   text-transform: uppercase;
-  padding: 10px 10px 8px 50px;
+  padding: 10px 0 8px 20px;
   p {
     width: 70px;
     float: left;
     font-size: 1em;
     letter-spacing: 2px;
-    padding: 6px 0 0;
+    padding: 6px 14px 0 0;
     color: $white;
   }
 }
@@ -288,6 +300,10 @@ section#banner{
 .medium {
   font-family: 'robotomedium';
 }
+.row-home {
+  padding: 90px 0;
+  overflow: hidden;
+}
 .row1 {
   padding: 4% 0;
   overflow: hidden;
@@ -312,6 +328,12 @@ section#banner{
     left: -30px;
     top: 8px;
     display: block;
+  }
+}
+.subtitle1{
+  @extend .subtitle;
+  &:before{
+    background: url("../images/line-pink.gif") no-repeat;
   }
 }
 .subtitle2{
@@ -344,7 +366,7 @@ section#banner{
 .strip-yellow {
   background: $yellow url("../images/bg-hp-country.jpg") no-repeat;
   background-size: cover;
-  padding: 50px 0 10px;
+  padding: 56px 0 10px;
 }
 .strip-blue{
   background: $blue;
@@ -380,14 +402,14 @@ section#banner{
 .partner{
     padding: 10px 24px;
     /*box-shadow: 0px 6px 13px 0px rgba(109, 109, 109, 0.25);*/
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
   font-family: 'robotomedium';
 }
 .hp-points {
   border-top: 4px solid #d2dde1;
   overflow: hidden;
   padding: 10px 0;
-
+  margin: 0 0 80px;
   .mar20{
     margin: 0 20px;
   }
@@ -694,7 +716,7 @@ section#banner{
 /**Custom Seletct*/
 .select-style {
   padding:5px 0;
-  margin: 0 5px 0 0;
+  margin: 0 5px 10px 0;
   width: 220px;
   border-radius: 20px;
   overflow: hidden;

@@ -1,6 +1,5 @@
 #inner{
   height: 400px;
-  background-size: cover;
   h2{
     font-family: 'bellotabold_italic';
     font-size: 4.25em;
@@ -11,10 +10,11 @@
 }
 #inner.about{
   background: url("../images/banner-inner-about.jpg") no-repeat top center;
+  background-size: cover;
 }
 #inner.services{
-  height: 350px;
   background: url("../images/banner-inner-services.jpg") no-repeat top center;
+  background-size: cover;
 }
 #big-icon{
   font-size: 1.9375em;
@@ -24,15 +24,19 @@
 }
 #inner.ireland{
   background: url("../images/banner-inner-ireland.jpg") no-repeat top center;
+  background-size: cover;
 }
 #inner.destination{
   background: url("../images/banner-inner-destination.jpg") no-repeat top center;
+  background-size: cover;
 }
 #inner.contact{
   background: url("../images/banner-inner-contact.jpg") no-repeat top center;
+  background-size: cover;
 }
 #inner.universities{
   background: url("../images/banner-inner-universities.jpg") no-repeat top center;
+  background-size: cover;
 }
 p.small-text {
   font-size: 0.875em;
@@ -132,6 +136,8 @@ div.panel.show {
   background: url("../images/ico-marker.png") no-repeat 0 8px;
   font-family: 'robotobold';
   font-size: 1.25em;
+  color: $greytxt;
+  line-height: 1.6875em;
 }
 .add.contact{
   background: url("../images/ico-phone.png") no-repeat 0 8px;
