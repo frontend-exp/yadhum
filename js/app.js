@@ -146,6 +146,8 @@ $(document).ready(function() {
         ]
     });
 
+    $("html").niceScroll({touchbehavior:false,zindex:"999",cursorcolor:"#ffc000",cursorborder:"#ffc000",cursorwidth:8,autohidemode:false});
+
 });
 
 $(window).load(function(){
@@ -203,8 +205,9 @@ $(window).load(function(){
         }
 
         $(".accordion").accordion({
+            active: 0,
             collapsible: true,
-            active: parseInt(active_item),
+            //active: parseInt(active_item),
             heightStyle: "content",
             icons: {
                 "header": "ui-icon-plus",
