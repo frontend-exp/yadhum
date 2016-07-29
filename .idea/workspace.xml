@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6ca1e2a-ac9f-40e6-84ae-54538a7f4dda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner-inner-about.jpg" afterPath="$PROJECT_DIR$/images/banner-inner-about.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner-inner-contact.jpg" afterPath="$PROJECT_DIR$/images/banner-inner-contact.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner-inner-destination.jpg" afterPath="$PROJECT_DIR$/images/banner-inner-destination.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner-inner-services.jpg" afterPath="$PROJECT_DIR$/images/banner-inner-services.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner-inner-universities.jpg" afterPath="$PROJECT_DIR$/images/banner-inner-universities.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_inner.scss" afterPath="$PROJECT_DIR$/css/_inner.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/destination-ireland.html" afterPath="$PROJECT_DIR$/destination-ireland.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/destinations.html" afterPath="$PROJECT_DIR$/destinations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/universities.html" afterPath="$PROJECT_DIR$/universities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d6ca1e2a-ac9f-40e6-84ae-54538a7f4dda" name="Default" comment="" />
     <ignored path="yadhumm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -311,7 +292,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1382" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
