@@ -7,6 +7,9 @@ a:hover, input[type="button"]:hover, .contact-form input[type="button"]:hover, .
   background: #646464;
   color: #fff; }
 
+.logo a:hover, .email a {
+  background: none; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -102,7 +105,8 @@ section#banner {
   left: 0;
   background: rgba(228, 64, 83, 0.95);
   display: none;
-  z-index: 11; }
+  z-index: 11;
+  animation: fadeInUp 0.5s 1; }
   .menu .menu-inner {
     width: 420px;
     height: 310px;
@@ -126,10 +130,28 @@ section#banner {
       padding-bottom: 13px; }
       .menu .nav li a {
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        position: relative; }
         .menu .nav li a:hover {
-          color: #515151 !important;
+          color: #ffc000 !important;
           background: none; }
+        .menu .nav li a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1); }
+        .menu .nav li a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #ffc000;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s; }
   .menu .nav-country {
     float: left;
     width: 50%;
@@ -147,10 +169,18 @@ section#banner {
       width: 126px;
       margin: 0 auto 10px;
       display: block;
-      letter-spacing: 0; }
+      letter-spacing: 0;
+      position: relative; }
       .menu .nav-country a:hover {
         background: #fff; }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
 .fill {
   background-position: center center;
   background-size: cover;
@@ -504,6 +534,9 @@ section#banner {
           font-family: 'robotobold'; }
           .bot-cont .feature-row .feature-col .feature-info h2 a {
             color: #e44053; }
+            .bot-cont .feature-row .feature-col .feature-info h2 a:hover {
+              background: none;
+              text-decoration: underline; }
         .bot-cont .feature-row .feature-col .feature-info p {
           font-size: 0.875em;
           line-height: 1.25em;
@@ -545,7 +578,8 @@ section#banner {
         color: #bbbbbb;
         text-decoration: none; }
         .footer-top .sitemap ul li a:hover {
-          color: #666; }
+          color: #e44053;
+          background: none; }
   .footer-top .touch input {
     width: 100%;
     padding: 5px 20px;
@@ -629,6 +663,14 @@ section#banner {
 
 .select-style select:focus {
   outline: none; }
+
+.select-style select option:hover {
+  background: #fff; }
+
+.select-style select option {
+  color: #515151;
+  background: #ffc000;
+  border: 1px solid #ffc000; }
 
 /*hamburger*/
 #hamburger {
@@ -948,6 +990,34 @@ div.panel.show {
   background-position: right 20px top 20px;
   background-repeat: no-repeat; }
 
+.destination-box.newzealand {
+  background-image: url("../images/img-destination-newzealand.jpg");
+  background-position: right 20px top 20px;
+  background-repeat: no-repeat; }
+
+.destination-box.singapore {
+  background-image: url("../images/img-destination-singapore.jpg");
+  background-position: right 20px top 20px;
+  background-repeat: no-repeat; }
+
+.destination-box.philippines {
+  background-image: url("../images/img-destination-philippines.jpg");
+  background-position: right 20px top 20px;
+  background-repeat: no-repeat; }
+
+.destination-box.canada {
+  background-image: url("../images/img-destination-canada.jpg");
+  background-position: right 20px top 20px;
+  background-repeat: no-repeat; }
+
+.hoverable {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.25s ease 0s; }
+
+.hoverable:hover {
+  box-shadow: 0 8px 17px 0 rgba(70, 70, 70, 0.2), 0 6px 15px 0 rgba(70, 70, 70, 0.19);
+  transition: box-shadow 0.25s ease 0s; }
+
 .add {
   padding: 0 0 0 50px;
   margin-bottom: 40px; }
@@ -1144,7 +1214,8 @@ ul.com-list {
   padding: 15px;
   overflow: hidden;
   text-align: center;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 0 0 30px; }
   .univ-box .univ-logo {
     padding: 15px 0;
     height: 60px;
